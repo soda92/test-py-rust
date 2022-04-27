@@ -1,6 +1,11 @@
 #[no_mangle]
 pub extern "C" fn rust_function() {
     println!("Rust function called");
+    another_function();
+}
+
+fn another_function() {
+    println!("Another function called");
 }
 
 #[cfg(test)]
