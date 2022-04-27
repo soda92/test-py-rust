@@ -155,6 +155,7 @@ cython_debug/
 # Added by cargo
 
 /target
+/*.dll
 
 
 # Added by cargo
